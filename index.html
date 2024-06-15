@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbots</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Chatbots</h1>
+    </header>
+    <div id="sidebar">
+        <button id="btn-catBot">CatBot</button>
+        <button id="btn-cookBot">CookBot</button>
+        <button id="btn-randomBot">RandomBot</button>
+    </div>
+    <div id="chat-container">
+        <div class="chat-box" id="catBot-chat" style="display: none">
+            <h2>CatBot</h2>
+            <div class="messages" id="catBot-messages">
+                <div class="message bot-message">
+                    <div class="message-text">
+                        Je suis CatBot ! Tape "help" pour voir les commandes disponibles.
+                    </div>
+                </div>
+            </div>
+            <input type="text" id="catBot-input" class="chat-input" />
+            <button id="catBot-send" class="send-button">Envoyer</button>
+        </div>
+        <div class="chat-box" id="cookBot-chat" style="display: none">
+            <h2>CookBot</h2>
+            <div class="messages" id="cookBot-messages">
+                <div class="message bot-message">
+                    <div class="message-text">
+                        Je suis CookBot, je suis là pour te donner des conseils. Tape "help" pour voir les commandes disponibles.
+                    </div>
+                </div>
+            </div>
+            <input type="text" id="cookBot-input" class="chat-input" />
+            <button id="cookBot-send" class="send-button">Envoyer</button>
+        </div>
+        <div class="chat-box" id="randomBot-chat" style="display: none">
+            <h2>RandomBot</h2>
+            <div class="messages" id="randomBot-messages">
+                <div class="message bot-message">
+                    <div class="message-text">
+                        Salut ! Je suis RandomBot. Tapez "advice" pour un conseil, "funfact" pour un fait amusant, ou "joke" pour une blague.
+                    </div>
+                </div>
+            </div>
+            <input type="text" id="randomBot-input" class="chat-input" />
+            <button id="randomBot-send" class="send-button">Envoyer</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

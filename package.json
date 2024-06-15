@@ -1,0 +1,16 @@
+{
+  "name": "chatbot-io",
+  "version": "1.0.0",
+  "description": "A simple chatbot application using Vanilla JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
